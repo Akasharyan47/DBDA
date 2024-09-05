@@ -1,1 +1,19 @@
 
+<html lang="en">
+<head>
+<script src="https://unpkg.com/tlx/browser/tlx.js"></script>
+<script src="https://unpkg.com/tlx-chart/browser/tlx-chart.js"></script>
+</head>
+<body>
+    <h1>developer 1</h1>
+<tlx-chart chart-type="OrgChart"
+ chart-columns="${['Name', 'Manager', 'ToolTip']}"
+ chart-data="${[
+    ['Mike', '', 'The President'],
+    ['Jim', 'Mike', 'VP'],
+    ['Alice', 'Mike', ''],
+    ['Bob', 'Jim', 'Bob Sponge'],
+    ['Carol', 'Bob', '']]}">
+</tlx-chart>
+</body>
+</html>
